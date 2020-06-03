@@ -1,0 +1,353 @@
+[
+  {
+    "pgaId": "464",
+    "name": "Safeway Open",
+    "schedule2018": 1,
+    "schedule2019": 1,
+    "schedule2020": 3
+  },
+  {
+    "pgaId": "494",
+    "name": "CIMB Cup",
+    "schedule2018": 2,
+    "schedule2019": 2,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "521",
+    "name": "CJ Cup",
+    "schedule2018": 3,
+    "schedule2019": 3,
+    "schedule2020": 6
+  },
+  {
+    "pgaId": "054",
+    "name": "Sanderson Farms Championship",
+    "schedule2018": 4,
+    "schedule2019": 4,
+    "schedule2020": 2
+  },
+  {
+    "pgaId": "489",
+    "name": "WGC HSBC",
+    "schedule2018": 5,
+    "schedule2019": 5,
+    "schedule2020": 8
+  },
+  {
+    "pgaId": "047",
+    "name": "Shriner's Classic",
+    "schedule2018": 6,
+    "schedule2019": 6,
+    "schedule2020": 4
+  },
+  {
+    "pgaId": "457",
+    "name": "OHL Classic",
+    "schedule2018": 7,
+    "schedule2019": 7,
+    "schedule2020": 10
+  },
+  {
+    "pgaId": "493",
+    "name": "RSM Classic",
+    "schedule2018": 8,
+    "schedule2019": 8,
+    "schedule2020": 11
+  },
+  {
+    "pgaId": "016",
+    "name": "Sentry Tournament of Champions",
+    "schedule2018": 9,
+    "schedule2019": 9,
+    "schedule2020": 12
+  },
+  {
+    "pgaId": "006",
+    "name": "Sony Open",
+    "schedule2018": 10,
+    "schedule2019": 10,
+    "schedule2020": 13
+  },
+  {
+    "pgaId": "002",
+    "name": "CareerBuilder Championship",
+    "schedule2018": 11,
+    "schedule2019": 11,
+    "schedule2020": 14
+  },
+  {
+    "pgaId": "004",
+    "name": "Farmers Invitational",
+    "schedule2018": 12,
+    "schedule2019": 12,
+    "schedule2020": 15
+  },
+  {
+    "pgaId": "003",
+    "name": "Waste Management Open",
+    "schedule2018": 13,
+    "schedule2019": 13,
+    "schedule2020": 16
+  },
+  {
+    "pgaId": "005",
+    "name": "Pebble Beach Pro-Am",
+    "schedule2018": 14,
+    "schedule2019": 14,
+    "schedule2020": 17
+  },
+  {
+    "pgaId": "007",
+    "name": "Genesis Open",
+    "schedule2018": 15,
+    "schedule2019": 15,
+    "schedule2020": 18
+  },
+  {
+    "pgaId": "010",
+    "name": "Honda Classic",
+    "schedule2018": 16,
+    "schedule2019": 17,
+    "schedule2020": 20
+  },
+  {
+    "pgaId": "473",
+    "name": "WGC Mexico",
+    "schedule2018": 17,
+    "schedule2019": 16,
+    "schedule2020": 19
+  },
+  {
+    "pgaId": "475",
+    "name": "Valspar Championship",
+    "schedule2018": 18,
+    "schedule2019": 20,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "009",
+    "name": "Arnold Palmer Invitational",
+    "schedule2018": 19,
+    "schedule2019": 18,
+    "schedule2020": 21
+  },
+  {
+    "pgaId": "522",
+    "name": "Corales Puntacana",
+    "schedule2018": 20,
+    "schedule2019": 22,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "470",
+    "name": "WGC Dell Match Play",
+    "schedule2018": 21,
+    "schedule2019": 21,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "020",
+    "name": "Houston Open",
+    "schedule2018": 22,
+    "schedule2019": 0,
+    "schedule2020": 5
+  },
+  {
+    "pgaId": "014",
+    "name": "Masters Tournament",
+    "schedule2018": 23,
+    "schedule2019": 24,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "012",
+    "name": "RBC Heritage",
+    "schedule2018": 24,
+    "schedule2019": 25,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "041",
+    "name": "Valero Texas Open",
+    "schedule2018": 25,
+    "schedule2019": 23,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "018",
+    "name": "Zurich Classic",
+    "schedule2018": 26,
+    "schedule2019": 26,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "480",
+    "name": "Wells Fargo Championship",
+    "schedule2018": 27,
+    "schedule2019": 27,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "011",
+    "name": "The Players Championship",
+    "schedule2018": 28,
+    "schedule2019": 19,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "019",
+    "name": "Byron Nelson Invitational",
+    "schedule2018": 29,
+    "schedule2019": 28,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "021",
+    "name": "Charles Schwab Classic",
+    "schedule2018": 30,
+    "schedule2019": 30,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "023",
+    "name": "Memorial Tournament",
+    "schedule2018": 31,
+    "schedule2019": 31,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "025",
+    "name": "St. Jude Classic",
+    "schedule2018": 32,
+    "schedule2019": 40,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "026",
+    "name": "US Open",
+    "schedule2018": 33,
+    "schedule2019": 33,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "034",
+    "name": "Traveler's Championship",
+    "schedule2018": 34,
+    "schedule2019": 34,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "471",
+    "name": "Quicken Loans National",
+    "schedule2018": 35,
+    "schedule2019": 0,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "490",
+    "name": "Greenbrier Classic",
+    "schedule2018": 36,
+    "schedule2019": 0,
+    "schedule2020": 1
+  },
+  {
+    "pgaId": "030",
+    "name": "John Deere Classic",
+    "schedule2018": 37,
+    "schedule2019": 37,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "518",
+    "name": "Barbasol Championship",
+    "schedule2018": 38,
+    "schedule2019": 39,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "100",
+    "name": "The Open Championship",
+    "schedule2018": 39,
+    "schedule2019": 38,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "472",
+    "name": "Barracuda Championship",
+    "schedule2018": 41,
+    "schedule2019": 41,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "476",
+    "name": "WGC Bridgestone Invitational",
+    "schedule2018": 42,
+    "schedule2019": 0,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "033",
+    "name": "PGA Championship",
+    "schedule2018": 43,
+    "schedule2019": 29,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "013",
+    "name": "Wyndham Championship",
+    "schedule2018": 44,
+    "schedule2019": 42,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "027",
+    "name": "Northern Trust",
+    "schedule2018": 45,
+    "schedule2019": 43,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "028",
+    "name": "BMW Championship",
+    "schedule2018": 46,
+    "schedule2019": 44,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "060",
+    "name": "Tour Championship",
+    "schedule2018": 47,
+    "schedule2019": 45,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "524",
+    "name": "Rocket Mortgage Classic",
+    "schedule2018": 0,
+    "schedule2019": 35,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "525",
+    "name": "3M Open",
+    "schedule2018": 0,
+    "schedule2019": 36,
+    "schedule2020": 0
+  },
+  {
+    "pgaId": "528",
+    "name": "Bermuda Classic",
+    "schedule2018": 0,
+    "schedule2019": 0,
+    "schedule2020": 9
+  },
+  {
+    "pgaId": "527",
+    "name": "ZOZO Championship",
+    "schedule2018": 0,
+    "schedule2019": 0,
+    "schedule2020": 7
+  }
+
+]

@@ -13,5 +13,5 @@ cache:
     - server/node_modules
 script:
   - npm run lint --prefix client
-  - npm run lint --prefix server
+  #- npm run lint --prefix server
   - npm run build --prefix client

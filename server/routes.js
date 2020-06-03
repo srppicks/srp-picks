@@ -19,8 +19,15 @@ const corsOptions = {
   allowedHeaders: ['Content-Type', 'Accept', 'X-Requested-With', 'Origin'],
 };
 
+if (process.env.NODE_ENV === "production") {
+  // Serve any static files as first priority
+  app.use(express.static(buildPath));
+}
+
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
+
+
 
 //ROUTES---------------------------------------------------------------------
 //GET

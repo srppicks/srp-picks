@@ -2,6 +2,7 @@
 /* eslint no-unused-vars: ["error", { "args": "none" }] */
 const cors = require('cors');
 const express = require('express');
+const path = require("path"); // eslint-disable-line global-require
 const bodyParser = require('body-parser');
 const knexConfig = require('./knexfile');
 const knex = require('knex')(knexConfig[process.env.NODE_ENV || 'development']);
@@ -11,6 +12,7 @@ const Course = require('./models/Course');
 const Result = require('./models/Result');
 Model.knex(knex);
 const { wrapError, DBError } = require('db-errors');
+const buildPath = path.resolve(__dirname, "../client/build");
 const app = express();
 
 const corsOptions = {
@@ -18,6 +20,7 @@ const corsOptions = {
   origin: '*',
   allowedHeaders: ['Content-Type', 'Accept', 'X-Requested-With', 'Origin'],
 };
+
 
 if (process.env.NODE_ENV === "production") {
   // Serve any static files as first priority
@@ -91,6 +94,13 @@ app.use((error, request, response, next) => {
       .send(wrappedError.data || wrappedError.message || {});
   }
 });
+
+if (process.env.NODE_ENV === "production") {
+  // All remaining requests return the React app, so it can handle routing.
+  app.get("*", (request, response) => {
+    response.sendFile(path.join(buildPath, "index.html"));
+  });
+}
 
 module.exports = {
   app,

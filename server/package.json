@@ -8,9 +8,16 @@
     "test": "jest --setupFiles dotenv/config",
     "lint": "eslint .",
     "start": "node -r dotenv/config index.js",
-    "watch": "nodemon --exec 'node -r dotenv/config' --ignore '*.test.js' index.js"
+    "watch": "nodemon --exec 'node -r dotenv/config' --ignore '*.test.js' index.js",
+    "heroku-postbuild": "npm install"
   },
   "keywords": [],
+  "engines": {
+  "node": "12.14.x"
+  },
+  "cacheDirectories": [
+  "node_modules"
+  ],
   "contributors": [
     "Stephan Perreault <sperreault@middlebury.edu>"
   ],

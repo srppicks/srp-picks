@@ -1,15 +1,19 @@
 /* eslint-disable no-console */
 /* eslint no-unused-vars: ["error", { "args": "none" }] */
-const cors = require('cors');
 const express = require('express');
 const path = require("path"); // eslint-disable-line global-require
 const bodyParser = require('body-parser');
 const knexConfig = require('./knexfile');
 const knex = require('knex')(knexConfig[process.env.NODE_ENV || 'development']);
 const { Model, ValidationError } = require('objection');
+const cors = require('cors');
+
+//tables
 const Golfer = require('./models/Golfer');
 const Course = require('./models/Course');
 const Result = require('./models/Result');
+
+
 Model.knex(knex);
 const { wrapError, DBError } = require('db-errors');
 const buildPath = path.resolve(__dirname, "../client/build");

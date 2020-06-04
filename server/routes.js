@@ -23,7 +23,7 @@ const corsOptions = {
 
 
 if (process.env.NODE_ENV === "production") {
-  // Serve any static files as first priority
+
   app.use(express.static(buildPath));
 }
 

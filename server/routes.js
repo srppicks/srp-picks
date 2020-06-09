@@ -36,7 +36,11 @@ app.use(bodyParser.json());
 
 
 
+
 //ROUTES---------------------------------------------------------------------
+
+
+
 //GET
 app.get("/api/golfers", (request, response, next) => {
   Golfer.query().then(golfer => {

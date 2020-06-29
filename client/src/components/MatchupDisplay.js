@@ -80,6 +80,7 @@ const MatchupDisplay = () => {
   const dropBoxTime = (
     <select value={period} onChange={(event) => setPeriod(event.target.value)}>
       <option key="This Course" value="This Course">This Course</option>
+      <option key="Since Break" value="Since Break">Since Break</option>
       <option key="This Season" value="This Season">This Season</option>
       <option key="All-Time" value="All-Time">All-Time</option>
     </select>

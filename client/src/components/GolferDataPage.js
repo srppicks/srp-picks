@@ -100,6 +100,7 @@ const GolferDataPage = () => {
               <Col>
                 <select value={year} onChange={(event) => setYear(event.target.value)}>
                   <option key="All" value="All">All</option>
+                  <option key="Since Break" value="Since Break">Since Break</option>
                   <option key="2018" value="2018">2018</option>
                   <option key="2019" value="2019">2019</option>
                   <option key="2020" value="2020">2020</option>

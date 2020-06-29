@@ -182,8 +182,12 @@ const PlayerDisplay = ( { player, year, course }) => {
     stats2020 = results;
   }
 
-  if (year !== "All") {
+  if (year !== "All" && year !== "Since Break") {
     stats2020 = stats2020.filter(object => object.year === parseInt(year, 10));
+  }
+
+  if (year === "Since Break") {
+    stats2020 = stats2020.filter(object => object.year === 2020 && (object.courseId === 30 || object.courseId === 24 || object.courseId === 34));
   }
 
   console.log(stats2020);

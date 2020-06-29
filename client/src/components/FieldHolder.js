@@ -417,6 +417,9 @@ const FieldHolder = ( { golfers, stat, period, courseId, results } ) => {
   else if (period === "This Season") {
     filteredResults = results.filter((result) => result.year === 2020);
   }
+  else if (period === "Since Break") {
+    filteredResults = results.filter((result) => result.year === 2020 && (result.courseId === 30 || result.courseId === 24 || result.courseId === 34));
+  }
   else {
     filteredResults = results;
   }
